@@ -1,0 +1,23 @@
+name: flutter_grpc_test
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  grpc: ^3.2.4
+  protobuf: ^3.1.0
+  grpc_dart_me:
+    path: "/Users/luisgustavo/Documents/Workstation/luisgustavo/pocs/grpc_dart_me"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hard_analyser: ^1.7.0
+
+flutter:
+  uses-material-design: true
